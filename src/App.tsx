@@ -3,11 +3,13 @@ import './App.css'
 import {useState} from "react";
 
 function App() {
-  const [count, setCount] = useState(0)
+  const [count, setCount] = useState(1)
 
   return (
     <>
-      adasda
+        <h1 className="text-3xl font-bold underline">
+            Hello world! {count}
+        </h1>
     </>
   )
 }
