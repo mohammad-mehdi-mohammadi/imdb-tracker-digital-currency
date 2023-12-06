@@ -11,7 +11,7 @@ function App() {
     <>
         <Routes>
             <Route path="/" element={<DigitalCurrency />} />
-            <Route path="/course" element={<ImdbTracker />} />
+            <Route path="/imdb-tracker" element={<ImdbTracker />} />
         </Routes>
     </>
   )

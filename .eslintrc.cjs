@@ -35,5 +35,14 @@ module.exports = {
         "react"
     ],
     "rules": {
+        'react/display-name': 'off',
+        'react/prop-types': 'off',
+        'react/react-in-jsx-scope': 'off',
+        'prettier/prettier': ['error', { endOfLine: 'auto' }],
+        'simple-import-sort/imports': 'error',
+        'simple-import-sort/exports': 'error',
+        'import/first': 'error',
+        'import/newline-after-import': 'error',
+        'import/no-duplicates': 'error',
     }
 }
